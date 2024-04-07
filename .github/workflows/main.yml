@@ -16,5 +16,8 @@ jobs:
         run: ls-l
       - name: Checkout our code
         uses: actions/checkout@v2
+      -  uses: actions/checkout@v2
       - name: Show directory after checkout
-        run: ls-1
+      - run: ls-1
+        
+
