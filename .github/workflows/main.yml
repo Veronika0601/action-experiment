@@ -18,7 +18,6 @@ jobs:
         run: ls -l
       - name: Checkout our code
         uses: actions/checkout@v3
-      - name: Show directory after checkout
-        run: ls -l
+    
         
 
