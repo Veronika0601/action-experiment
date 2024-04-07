@@ -8,7 +8,6 @@ on:
   issues:
     types:[opened, edited]
 
-    
 jobs:
  experimental-great:
     runs-on: ubuntu-latest
